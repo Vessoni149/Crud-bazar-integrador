@@ -1,0 +1,465 @@
+{
+	"info": {
+		"_postman_id": "4c64da48-5bc8-4cb5-be6b-12ae59ed4f89",
+		"name": "crud bazar integrador",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20821173"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/clientes/traer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/clientes/traer",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"clientes",
+						"traer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/productos/traer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/productos/traer",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"productos",
+						"traer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/ventas/traer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/ventas/traer",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ventas",
+						"traer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/productos/crear",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Copas\",\r\n    \"marca\": \"WineMaker\",\r\n    \"costo\":200,\r\n    \"cantidad_disponible\": 174\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/productos/crear",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"productos",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/productos/traer/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/productos/traer/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"productos",
+						"traer",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/clientes/crear",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Agustin\",\r\n    \"apellido\": \"Vessoni\",\r\n    \"dni\": \"123456789\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/clientes/crear",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"clientes",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/clientes/traer/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/clientes/traer/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"clientes",
+						"traer",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/ventas/crear",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fecha_venta\":\"2022-07-30\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/ventas/crear",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ventas",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/ventas/traer/3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/ventas/traer/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ventas",
+						"traer",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/clientes/borrar/5",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/clientes/borrar/5",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"clientes",
+						"borrar",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/productos/borrar/4",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/productos/borrar/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"productos",
+						"borrar",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/ventas/borrar/6",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/ventas/borrar/6",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ventas",
+						"borrar",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/clientes/editar/2?nombre=Andres&apellido=Vessoni&dni=987654321",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/clientes/editar/2?nombre=Andres&apellido=Vessoni&dni=987654321",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"clientes",
+						"editar",
+						"2"
+					],
+					"query": [
+						{
+							"key": "nombre",
+							"value": "Andres"
+						},
+						{
+							"key": "apellido",
+							"value": "Vessoni"
+						},
+						{
+							"key": "dni",
+							"value": "987654321"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/productos/editar/1?nombre=saca chorcho&marca=Wine maker&costo=50&cantidad_disponible=11",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/productos/editar/1?nombre=saca chorcho&marca=Wine maker&costo=50&cantidad_disponible=11",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"productos",
+						"editar",
+						"1"
+					],
+					"query": [
+						{
+							"key": "nombre",
+							"value": "saca chorcho"
+						},
+						{
+							"key": "marca",
+							"value": "Wine maker"
+						},
+						{
+							"key": "costo",
+							"value": "50"
+						},
+						{
+							"key": "cantidad_disponible",
+							"value": "11"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/ventas/editar/3",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"codigo_venta\": 16,\r\n    \"fecha_venta\": \"2022-07-25\",\r\n    \"total\":50,\r\n    \"unCliente\":{\r\n        \"id_cliente\": 2,\r\n        \"nombre\": \"Andres\",\r\n        \"apellido\": \"Vessoni\",\r\n        \"dni\": \"987654321\"\r\n    },\r\n    \"listaProductos\":[\r\n    {\r\n        \"codigo_producto\": 19,\r\n        \"nombre\": \"Mesa\",\r\n        \"marca\": \"Mesasa\",\r\n        \"costo\": 4000.0,\r\n        \"cantidad_disponible\": 2.0\r\n    },\r\n    {\r\n        \"codigo_producto\": 20,\r\n        \"nombre\": \"sillon\",\r\n        \"marca\": \"Sillonazo\",\r\n        \"costo\": 3500.0,\r\n        \"cantidad_disponible\": 4.0\r\n    },\r\n    {\r\n        \"codigo_producto\": 10,\r\n        \"nombre\": \"parrilla\",\r\n        \"marca\": \"Todo brazas\",\r\n        \"costo\": 2155.0,\r\n        \"cantidad_disponible\": 3.0\r\n    }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/ventas/editar/16",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ventas",
+						"editar",
+						"16"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/productos/falta_stock",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/productos/falta_stock",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"productos",
+						"falta_stock"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/ventas/productos/3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/ventas/productos/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ventas",
+						"productos",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/ventas/fecha-cantidad?fecha_venta=2022-07-25",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/ventas/fecha-cantidad?fecha_venta=2022-07-25",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ventas",
+						"fecha-cantidad"
+					],
+					"query": [
+						{
+							"key": "fecha_venta",
+							"value": "2022-07-25"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/ventas/editar/17",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"codigo_venta\": 17,\r\n        \"fecha_venta\": \"2022-07-30\",\r\n        \"total\": 0,\r\n        \"listaProductos\": [\r\n            {\r\n        \"codigo_producto\": 8,\r\n        \"nombre\": \"Fuente de gatos\",\r\n        \"marca\": \"Happie cats\",\r\n        \"costo\": 290.0,\r\n        \"cantidad_disponible\": 4.0\r\n    },\r\n    {\r\n        \"codigo_producto\": 9,\r\n        \"nombre\": \"Estatua Gato\",\r\n        \"marca\": \"Happie cats\",\r\n        \"costo\": 580.0,\r\n        \"cantidad_disponible\": 1.0\r\n    }\r\n        ],\r\n        \"unCliente\":  {\r\n        \"id_cliente\": 2,\r\n        \"nombre\": \"Andres\",\r\n        \"apellido\": \"Vessoni\",\r\n        \"dni\": \"987654321\"\r\n    }\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/ventas/editar/17",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ventas",
+						"editar",
+						"17"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
